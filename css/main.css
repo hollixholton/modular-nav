@@ -36,9 +36,11 @@ h1 {
 
 li {
   list-style: none;
-  padding: .5em;
-  text-align: center;
   display: inline-block;
+}
+
+.nav {
+  text-align: center;
 }
 
 .current {
@@ -56,9 +58,13 @@ ul {
   display: inline-block;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
   h1 {
     text-align: left;
+  }
+
+  .nav {
+    text-align: right;
   }
 }
